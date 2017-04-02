@@ -13,7 +13,7 @@ DFLAGS=-DCUNIT_AUTOMATED
 
 SRC=$(wildcard *.c)
 OBJ=$(SRC:%.c=%.o)
-UT_NAME=ut_test
+UT_NAME=cunit_demo
 
 all: $(OBJ)
 	$(CXX) $^ -o $(UT_NAME) $(LIB_PATH) $(LIB)
