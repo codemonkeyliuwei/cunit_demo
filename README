@@ -1,0 +1,4 @@
+#cunit demo
+
+Compile with [make]
+Run the demo with [./cunit_demo]
